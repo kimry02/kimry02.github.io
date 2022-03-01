@@ -9,7 +9,7 @@ import Footer from './Footer';
 
 function App() {
     return (
-        <Router>
+        <Router basename={window.location.pathname || ''}>
             <NavBar />
             <div className='overflow-hidden min-h-screen bg-gradient-to-r from-cyan-500 to-sky-800'>
             <Routes>
