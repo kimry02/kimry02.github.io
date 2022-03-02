@@ -16,6 +16,26 @@ body {
   overflow-y: scroll;
 }
 
+.wave {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(135% + 1.3px);
+  height: 90px;
+}
+
+.wave .shape-fill {
+  fill: #0C4A6E;
+}
+
 body::-webkit-scrollbar{
   display: none;
 }
@@ -23,4 +43,25 @@ body::-webkit-scrollbar{
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.botwave {
+  position: absolute;
+  bottom: 68px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.botwave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 53px;
+}
+
+.botwave .shape-fill {
+  fill: #0C4A6E;
 }
