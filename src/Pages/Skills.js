@@ -27,6 +27,7 @@ export default function Skills(){
                             <SkillsPageObject name="Node (NPM)" />
                             <SkillsPageObject name="Git/GitHub" />
                             <SkillsPageObject name="Bash CLI" />
+                            <SkillsPageObject name="PyCharm" />
                         </div>
                 </figure>
 

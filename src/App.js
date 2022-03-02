@@ -10,8 +10,9 @@ import Footer from './Footer';
 function App() {
     return (
         <Router basename={window.location.pathname || ''}>
+            <div className='bg-background'>
             <NavBar />
-            <div className='overflow-hidden min-h-[90vh] bg-gradient-to-r from-cyan-500 to-sky-800'>
+            <div className='overflow-hidden min-h-[90vh]'>
             <Routes>
                 <Route exact path="/" element={<AboutMe />}/>
                 <Route exact path="/projects" element={<Projects />}/>
@@ -20,6 +21,7 @@ function App() {
             </Routes>
             </div>
             <Footer />
+            </div>
         </Router>
     );
     
