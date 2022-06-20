@@ -11,7 +11,10 @@ export default function Skills(){
                         <div className="flex flex-row flex-wrap pt-2 mx-8 mb-8 mt-2">
                             <SkillsPageObject name="C++" />
                             <SkillsPageObject name="JavaScript" />
+                            <SkillsPageObject name="Java" />
                             <SkillsPageObject name="Python" />
+                            <SkillsPageObject name="SQL" />
+                            <SkillsPageObject name="GraphQL" />
                             <SkillsPageObject name="HTML/CSS" />     
                         </div>
                 </figure>
@@ -19,15 +22,25 @@ export default function Skills(){
                         <div className="p-2 font-semibold">Tools and Technologies</div>
                         <hr className=""></hr>
                         <div className="flex flex-row flex-wrap pt-2 mx-8 mb-8 mt-2">
-                            <SkillsPageObject name="React" />
-                            <SkillsPageObject name="SASS" />
+                            <SkillsPageObject name="React.js" />
+                            <SkillsPageObject name="Express.js" />
+                            <SkillsPageObject name="MongoDB" />
+                            <SkillsPageObject name="JSON Web Tokens" />
+                            <SkillsPageObject name="SASS/SCSS" />
                             <SkillsPageObject name="VS Code" />
                             <SkillsPageObject name="PyCharm" />
                             <SkillsPageObject name="Tailwind CSS" />
                             <SkillsPageObject name="Node (NPM)" />
                             <SkillsPageObject name="Git/GitHub" />
                             <SkillsPageObject name="Bash CLI" />
+                            <SkillsPageObject name="Graph CMS" />
                             <SkillsPageObject name="PyCharm" />
+                            <SkillsPageObject name="Redux" />
+                            <SkillsPageObject name="NextAuth.js" />
+                            <SkillsPageObject name="Next.js" />
+                            <SkillsPageObject name="React Parallax" />
+                            <SkillsPageObject name="Vercel" />
+                        
                         </div>
                 </figure>
 

@@ -3,12 +3,34 @@ import ProjectObject from './ProjectObject';
 import ps from '../PersonalSiteIMG.PNG';
 import nm from '../NotifyMeIMG.PNG';
 import st from '../SpeedTyperIMG.PNG';
+import pic from '../pictured.PNG';
+import stv2 from '../STV2_Image.PNG';
 
 export default function Projects(){
     return(
         <div>
             <h2 id="projecttitle" className='opacity-0 transition duration-1000 ease-in-out m-20 text-center font-monty font-semibold text-slate-100 text-4xl'>PROJECTS</h2>
             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 px-10 pb-20">
+            <ProjectObject title="Speed Typer v2"
+                            imageSource={stv2}
+                            techStack="MongoDB, Express.js, React, Node.js, Redux, JWT, TailwindCSS"
+                            id="e"
+                            number="5"
+                            link="https://github.com/kimry02/SpeedTyperV2" 
+                            desc="The initial Speed Typer was one of my first real coding projects. I sought to give it an update with the new technologies that I've learned. 
+                            Once again, utilizes LukePeavy's Random Quote API. Upgraded the first Speed Typer through user authentication with JSON Web Tokens and words per minute (wpm) tracking/storing
+                            through MongoDB. Users can now create accounts and save their wpms."
+                            />
+            <ProjectObject title="Pictured"
+                            imageSource={pic}
+                            techStack="Next.js, NextAuth.js, React, TailwindCSS, GraphQL, GraphCMS, Vercel"
+                            id="d"
+                            number="4"
+                            link="https://pictured.vercel.app/" 
+                            desc="Since 2019, I have been taking one picture a day and uploading it to my separate social media account.
+                            I decided to move off of the platform and create a dedicated web application, Pictured. 
+                            The application takes advantage of GraphCMS for content management, NextAuth for authenticating valid users to view posts, and React for the frontend. "
+                            />
             <ProjectObject title="Speed Typer"
                             imageSource={st}
                             techStack="HTML, CSS, JavaScript"
