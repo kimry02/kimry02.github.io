@@ -5,6 +5,7 @@ import nm from '../NotifyMeIMG.PNG';
 import st from '../SpeedTyperIMG.PNG';
 import pic from '../pictured.PNG';
 import stv2 from '../STV2_Image.PNG';
+import pug from '../pugbot.PNG';
 
 export default function Projects(){
     return(
@@ -20,6 +21,17 @@ export default function Projects(){
                             desc="The initial Speed Typer was one of my first real coding projects. I sought to give it an update with the new technologies that I've learned. 
                             Once again, utilizes LukePeavy's Random Quote API. Upgraded the first Speed Typer through user authentication with JSON Web Tokens and words per minute (wpm) tracking/storing
                             through MongoDB. Users can now create accounts and save their wpms."
+                            />
+            <ProjectObject title="Pugbot"
+                            imageSource={pug}
+                            techStack="Javascript, Riot API, Axios, Discord.js, Heroku"
+                            id="f"
+                            number="6"
+                            link="https://github.com/kimry02/pugbot" 
+                            desc="Pugbot is a Discord bot created for a Discord community that my friends and I are a part of. Pugbot is hosted on Heroku and is only active in our Discord. Currently, it has a simple task of 
+                            retrieving information from the Riot API about a user's
+                            most recent ranked match of League of Legends. Through asynchronous Javascript and RESTful API interactions through Axios, I was able to create a functional bot that serves its purpose. This project
+                            was a great way for me to create an application with utility while gaining more experience and having fun."
                             />
             <ProjectObject title="Pictured"
                             imageSource={pic}

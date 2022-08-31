@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import resPDF from './RyanKim.pdf';
 
 export default function NavBar() {
     return (
@@ -18,7 +18,9 @@ export default function NavBar() {
                         <li className=' relative group hover:text-sky-200'>
                             <div className="absolute w-full h-0.5 bg-sky-200 scale-x-0 group-hover:scale-x-100 transition-transform" />
                             <Link to="/skills">SKILLS</Link></li>
-                        
+                        <li className=' relative group hover:text-sky-200'>
+                            <div className="absolute w-full h-0.5 bg-sky-200 scale-x-0 group-hover:scale-x-100 transition-transform" />
+                            <a href={resPDF}>RESUME</a></li>
                         </ul>                            
                         
                     </div>
